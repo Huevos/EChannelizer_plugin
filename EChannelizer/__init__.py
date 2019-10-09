@@ -4,7 +4,7 @@ from Tools.Directories import resolveFilename, SCOPE_PLUGINS, SCOPE_LANGUAGE
 import os, gettext
 
 PluginLanguageDomain = "EChannelizer"
-PluginLanguagePath = "SystemPlugins/EChannelizer/locale"
+PluginLanguagePath = "Extensions/EChannelizer/locale"
 
 def localeInit():
 	gettext.bindtextdomain(PluginLanguageDomain, resolveFilename(SCOPE_PLUGINS, PluginLanguagePath))
